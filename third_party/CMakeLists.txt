@@ -5,6 +5,7 @@ add_library(glm INTERFACE)
 add_library(vma INTERFACE)
 add_library(stb INTERFACE)
 
+add_subdirectory(fmt EXCLUDE_FROM_ALL)
 add_subdirectory(SDL EXCLUDE_FROM_ALL)
 
 target_sources(vkbootstrap PRIVATE
@@ -18,13 +19,6 @@ set_property(TARGET vkbootstrap PROPERTY CXX_STANDARD 20)
 
 target_include_directories(vma INTERFACE vma)
 target_include_directories(glm INTERFACE glm)
-
-add_library(SDL2 INTERFACE)
-
-target_include_directories(SDL2 INTERFACE $ENV{VULKAN_SDK}/Include/SDL2)
-target_link_directories(SDL2 INTERFACE $ENV{VULKAN_SDK}/Lib)
-
-target_link_libraries(SDL2 INTERFACE SDL2)
 
 
 add_library(imgui STATIC)

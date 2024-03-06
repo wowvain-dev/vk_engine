@@ -3,7 +3,10 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/third_party/SDL" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/third_party/fmt" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/third_party/glm" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/third_party/imgui" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/third_party/stb" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/third_party/vkbootstrap" vcs="Git" />
   </component>
 </project>
