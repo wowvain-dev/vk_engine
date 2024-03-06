@@ -38,6 +38,8 @@ add_executable(Engine
         src/vk_engine.cpp
         src/vk_engine.h
         src/vk_types.h
+        src/vk_initializers.cpp
+        src/vk_initializers.h
 )
 
 set_property(TARGET Engine PROPERTY CXX_STANDARD 20)
