@@ -1,0 +1,12 @@
+I:/scratch/VulkanEngine/cmake-build-debug/CMakeFiles/Shaders.dir
+I:/scratch/VulkanEngine/cmake-build-debug/CMakeFiles/edit_cache.dir
+I:/scratch/VulkanEngine/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+I:/scratch/VulkanEngine/cmake-build-debug/third_party/CMakeFiles/vkbootstrap.dir
+I:/scratch/VulkanEngine/cmake-build-debug/third_party/CMakeFiles/imgui.dir
+I:/scratch/VulkanEngine/cmake-build-debug/third_party/CMakeFiles/edit_cache.dir
+I:/scratch/VulkanEngine/cmake-build-debug/third_party/CMakeFiles/rebuild_cache.dir
+I:/scratch/VulkanEngine/cmake-build-debug/third_party/SDL/CMakeFiles/SDL3-shared.dir
+I:/scratch/VulkanEngine/cmake-build-debug/third_party/SDL/CMakeFiles/SDL3_test.dir
+I:/scratch/VulkanEngine/cmake-build-debug/third_party/SDL/CMakeFiles/uninstall.dir
+I:/scratch/VulkanEngine/cmake-build-debug/third_party/SDL/CMakeFiles/edit_cache.dir
+I:/scratch/VulkanEngine/cmake-build-debug/third_party/SDL/CMakeFiles/rebuild_cache.dir
