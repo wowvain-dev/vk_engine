@@ -1,0 +1,5 @@
+Vulkan_dep = dependency('Vulkan')
+vkbootstrap_lib = static_library('vkbootstrap')
+glm_lib = library('glm', 'INTERFACE')
+vma_lib = library('vma', 'INTERFACE')
+stb_lib = library('stb', 'INTERFACE')

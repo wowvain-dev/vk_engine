@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="VulkanEngine" targetName="SDL2" />
+      <config projectName="VulkanEngine" targetName="sdl_headers_copy" />
+      <config projectName="VulkanEngine" targetName="uninstall" />
+      <config projectName="VulkanEngine" targetName="fmt" />
+      <config projectName="VulkanEngine" targetName="SDL2_test" />
+      <config projectName="VulkanEngine" targetName="Shaders" />
+      <config projectName="VulkanEngine" targetName="imgui" />
+      <config projectName="VulkanEngine" targetName="vkbootstrap" />
+      <config projectName="VulkanEngine" targetName="Engine" />
+      <config projectName="VulkanEngine" targetName="SDL2-static" />
+      <config projectName="VulkanEngine" targetName="SDL2main" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" GENERATION_DIR="build" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="10f85d41-2ce3-4b35-92ec-da8193695215" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/vk_images.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vk_images.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third_party/imgui/imgui_impl_sdl2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third_party/imgui/imgui_impl_sdl2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third_party/imgui/imgui_impl_vulkan.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third_party/imgui/imgui_impl_vulkan.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake2meson.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" afterPath="$PROJECT_DIR$/shader_compiler.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" afterPath="$PROJECT_DIR$/shader_compiler.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-33c64504fabc4164b599.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-2e608aa04b45c349ad31.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-e929564ec854f58f84f6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-third_party-Debug-a2e0515af5b7021cdaa7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-third_party.SDL-Debug-6dfee54828db93ee2523.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-third_party.fmt-Debug-a800c2de37fc330ba479.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-03-06T22-58-35-0279.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Engine-Debug-386b8494b9820e097d46.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-SDL2-Debug-1199e0ccf178a7dd2ee8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-SDL2-static-Debug-83d2126d8d28cd1dcb3c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-SDL2_test-Debug-455ccda397c1cafa7180.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-SDL2main-Debug-78ae715d0297d40a3fe9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Shaders-Debug-0c46ff29f0ab7d3e07ec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-fmt-Debug-0cd271b288a46d46c1de.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-imgui-Debug-7568afa224e2d17b1f25.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-sdl_headers_copy-Debug-761c20a34b0c14bf4f09.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-uninstall-Debug-30ef64c887aa69f2a305.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-vkbootstrap-Debug-abf9c2b9a2b522c384e1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-75fce26ead30c20cdcfc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Engine.dir/src/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Engine.dir/src/vk_engine.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Engine.dir/src/vk_initializers.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/CMakeFiles/vkbootstrap.dir/vkbootstrap/src/VkBootstrap.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/SDL.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/SDL_assert.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/SDL_dataqueue.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/SDL_error.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/SDL_guid.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/SDL_hints.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/SDL_list.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/SDL_log.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/SDL_utils.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/atomic/SDL_atomic.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/atomic/SDL_spinlock.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audio.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audiocvt.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audiodev.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audiotypecvt.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/audio/SDL_mixer.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/audio/SDL_wave.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/audio/directsound/SDL_directsound.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/audio/disk/SDL_diskaudio.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/audio/dummy/SDL_dummyaudio.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/audio/wasapi/SDL_wasapi.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/audio/wasapi/SDL_wasapi_win32.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/audio/winmm/SDL_winmm.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_hid.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_immdevice.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_windows.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_xinput.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/cpuinfo/SDL_cpuinfo.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/dynapi/SDL_dynapi.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/events/SDL_clipboardevents.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/events/SDL_displayevents.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/events/SDL_dropevents.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/events/SDL_events.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/events/SDL_gesture.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/events/SDL_keyboard.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/events/SDL_keysym_to_scancode.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/events/SDL_mouse.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/events/SDL_quit.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/events/SDL_scancode_tables.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/events/SDL_touch.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/events/SDL_windowevents.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/events/imKStoUCS.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/file/SDL_rwops.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/filesystem/windows/SDL_sysfilesystem.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/haptic/SDL_haptic.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/haptic/windows/SDL_dinputhaptic.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/haptic/windows/SDL_windowshaptic.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/haptic/windows/SDL_xinputhaptic.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/hidapi/SDL_hidapi.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/SDL_gamecontroller.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/SDL_joystick.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/SDL_steam_virtual_gamepad.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/controller_type.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_combined.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_luna.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_shield.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steam.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_switch.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_wii.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapijoystick.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/virtual/SDL_virtualjoystick.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_dinputjoystick.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_rawinputjoystick.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_windows_gaming_input.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_windowsjoystick.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_xinputjoystick.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/libm/e_atan2.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/libm/e_exp.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/libm/e_fmod.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/libm/e_log.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/libm/e_log10.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/libm/e_pow.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/libm/e_rem_pio2.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/libm/e_sqrt.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/libm/k_cos.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/libm/k_rem_pio2.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/libm/k_sin.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/libm/k_tan.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/libm/s_atan.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/libm/s_copysign.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/libm/s_cos.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/libm/s_fabs.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/libm/s_floor.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/libm/s_scalbn.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/libm/s_sin.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/libm/s_tan.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/loadso/windows/SDL_sysloadso.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/locale/SDL_locale.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/locale/windows/SDL_syslocale.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/main/windows/version.rc.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/misc/SDL_url.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/misc/windows/SDL_sysurl.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/power/SDL_power.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/power/windows/SDL_syspower.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/render/SDL_d3dmath.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/render/SDL_render.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/render/SDL_yuv_sw.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/render/direct3d/SDL_render_d3d.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/render/direct3d/SDL_shaders_d3d.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/render/direct3d11/SDL_render_d3d11.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/render/direct3d11/SDL_shaders_d3d11.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/render/direct3d12/SDL_render_d3d12.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/render/direct3d12/SDL_shaders_d3d12.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/render/opengl/SDL_render_gl.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/render/opengl/SDL_shaders_gl.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/render/opengles/SDL_render_gles.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/render/opengles2/SDL_render_gles2.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/render/opengles2/SDL_shaders_gles2.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/render/ps2/SDL_render_ps2.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/render/psp/SDL_render_psp.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_blendfillrect.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_blendline.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_blendpoint.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_drawline.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_drawpoint.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_render_sw.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_rotate.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_triangle.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/sensor/SDL_sensor.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/sensor/windows/SDL_windowssensor.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_crc16.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_crc32.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_getenv.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_iconv.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_malloc.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_mslibc.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_qsort.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_stdlib.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_string.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_strtokr.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/thread/SDL_thread.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/thread/generic/SDL_syscond.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_syscond_cv.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_sysmutex.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_syssem.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_systhread.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_systls.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/timer/SDL_timer.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/timer/windows/SDL_systimer.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_RLEaccel.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_0.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_1.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_A.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_N.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_auto.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_copy.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_slow.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_bmp.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_clipboard.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_egl.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_fillrect.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_pixels.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_rect.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_shape.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_stretch.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_surface.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_video.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_vulkan_utils.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_yuv.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullevents.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullframebuffer.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullvideo.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenevents.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenframebuffer.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenopengles.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenvideo.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenwindow.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsclipboard.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsevents.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsframebuffer.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowskeyboard.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsmessagebox.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsmodes.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsmouse.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsopengl.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsopengles.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsshape.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsvideo.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsvulkan.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowswindow.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/yuv2rgb/yuv_rgb_lsx.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/yuv2rgb/yuv_rgb_sse.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/CMakeFiles/SDL2.dir/src/video/yuv2rgb/yuv_rgb_std.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/SDL2.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/SDL2d.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/SDL_config.h.intermediate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/cmake_uninstall.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include-config-debug/SDL2/SDL_config.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_assert.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_atomic.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_audio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_bits.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_blendmode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_clipboard.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_copying.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_cpuinfo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_egl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_endian.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_error.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_events.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_filesystem.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_gamecontroller.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_gesture.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_guid.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_haptic.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_hidapi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_hints.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_joystick.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_keyboard.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_keycode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_loadso.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_locale.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_log.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_main.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_messagebox.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_metal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_misc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_mouse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_mutex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_name.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_opengl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_opengl_glext.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_opengles.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_opengles2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_opengles2_gl2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_opengles2_gl2ext.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_opengles2_gl2platform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_opengles2_khrplatform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_pixels.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_platform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_power.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_quit.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_rect.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_render.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_revision.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_rwops.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_scancode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_sensor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_shape.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_stdinc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_surface.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_system.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_syswm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_assert.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_common.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_compare.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_crc32.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_font.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_fuzzer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_harness.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_images.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_log.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_md5.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_memory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_random.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_thread.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_timer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_touch.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_types.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_version.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_video.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/SDL_vulkan.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/begin_code.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/include/SDL2/close_code.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/libSDL2d.dll.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/sdl2-config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/SDL/sdl2.pc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/fmt/CMakeFiles/Export/b834597d9b1628ff12ae4314c3a2e4b8/fmt-targets-debug.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/fmt/CMakeFiles/Export/b834597d9b1628ff12ae4314c3a2e4b8/fmt-targets.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/fmt/CMakeFiles/fmt.dir/src/format.cc.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/fmt/CMakeFiles/fmt.dir/src/os.cc.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/fmt/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/fmt/fmt-config-version.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/fmt/fmt-config.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/fmt/fmt-targets.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/fmt/fmt.pc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/fmt/libfmtd.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/third_party/libvkbootstrap.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vk_engine.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/vk_engine.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vk_engine.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/vk_engine.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third_party/imgui" beforeDir="false" afterPath="$PROJECT_DIR$/third_party/imgui" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLabMergeRequestsSettings"><![CDATA[{}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/vk_images.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/vk_images.h" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2024" />
+    <option name="minorVersion" value="1" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2dNfoZ0nGE5PK8Ju6LekJiZvMiw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "CMake Application.Engine.executor": "Run",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.advertisement.text.has.clang-format": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="CMake Application.Engine">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Engine" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VulkanEngine" TARGET_NAME="Engine" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="VulkanEngine" RUN_TARGET_NAME="Engine">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SDL2-static" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VulkanEngine" TARGET_NAME="SDL2-static" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SDL2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VulkanEngine" TARGET_NAME="SDL2" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SDL2_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VulkanEngine" TARGET_NAME="SDL2_test" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SDL2main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VulkanEngine" TARGET_NAME="SDL2main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Shaders" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VulkanEngine" TARGET_NAME="Shaders" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fmt" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VulkanEngine" TARGET_NAME="fmt" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="imgui" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VulkanEngine" TARGET_NAME="imgui" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sdl_headers_copy" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VulkanEngine" TARGET_NAME="sdl_headers_copy" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="uninstall" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VulkanEngine" TARGET_NAME="uninstall" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vkbootstrap" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VulkanEngine" TARGET_NAME="vkbootstrap" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Engine" />
+      <item itemvalue="CMake Application.Shaders" />
+      <item itemvalue="CMake Application.imgui" />
+      <item itemvalue="CMake Application.vkbootstrap" />
+      <item itemvalue="CMake Application.fmt" />
+      <item itemvalue="CMake Application.SDL2" />
+      <item itemvalue="CMake Application.SDL2-static" />
+      <item itemvalue="CMake Application.SDL2_test" />
+      <item itemvalue="CMake Application.SDL2main" />
+      <item itemvalue="CMake Application.sdl_headers_copy" />
+      <item itemvalue="CMake Application.uninstall" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="10f85d41-2ce3-4b35-92ec-da8193695215" name="Changes" comment="" />
+      <created>1709853631556</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709853631556</updated>
+      <workItem from="1709853632601" duration="4373000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+</project>
